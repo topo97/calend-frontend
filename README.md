@@ -1,4 +1,60 @@
-# Getting Started with Create React App
+frontend:
+
+# Calendar APP:
+## Development pasos
+
+-  Renombrar el archivo .env.template por .env
+-  Hacer el cambio en variables de entorno.
+
+\\\\
+    VITE_API_URL = http://localhost:4000/api
+\\\\
+
+
+# La creo con react => npm start, para lanzar el proyecto.
+
+# instalo React Router V6 => npm install react-router-dom@6.
+
+# utilizo el CDN de getBootstrap => link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+# uso un Navbar de un repositorio en git, es solo maquetacion.
+
+# utilizmos el CDN de font-awesome, para los iconos.
+
+# para crear el calendario, uso una libreria la cual tiene el codigo en typescrip: =>  https://www.npmjs.com/package/react-big-calendar su npm install, npm i react-big-calendar.
+fecha-fns v2, en esta seccion esta el codigo q vamos a usar, el otro es obsoleto.
+
+npm i date-fns => una libreria mas para facilitar el uso del calendario.
+
+# EL modal lo trbaje con una libreria, llamada reac-modal, fue instalada con npm install, => https://www.npmjs.com/package/react-modal
+
+# Para el calendario trabaje con React Date Picker, una libreria => https://www.npmjs.com/package/react-datepicker
+instalo su dependecia.
+
+# el fommulario para anotar nuestro evento, es un html de un repositorio.
+
+# SWEETALERT2 => es una libreria q facilita los cuadros de alertas en la pantalla. https://sweetalert2.github.io/#download
+
+# Despue de toda la logica q hay detras de este fomulario,  el manejo del store lo hago con React Redux, para manejar hooks, algunos prividers etc. Tambien React Toolkit 
+
+# Uso axios para manejar mis peticiones http y tener un codigo mas limpio. npm i axios
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
